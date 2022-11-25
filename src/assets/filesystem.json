@@ -1,0 +1,91 @@
+{
+  "data": [
+    {
+      "data": {
+        "resource": "NM-X-DS",
+        "availability": "1750h",
+        "22-11-21": "8h",
+        "22-11-22": "4h",
+        "22-11-23": "4h"
+      },
+      "expanded": true,
+      "children": [
+        {
+          "data": {
+            "resource": "Meikel",
+            "availability": "184h",
+            "22-11-21": "8h",
+            "22-11-22": "4h",
+            "22-11-23": "4h"
+          },
+          "children": [
+            {
+              "data": {
+                "resource": "Projekt 1",
+                "availability": "8h",
+                "22-11-21": "4h",
+                "22-11-22": "4h"
+              },
+              "children": [
+                {
+                  "data": {
+                    "resource": "PlanItem 1",
+                    "22-11-21": "2h",
+                    "extendedProps": {
+                      "planItemId": "2"
+                    }
+                  }
+                },
+                {
+                  "data": {
+                    "resource": "PlanItem 2",
+                    "22-11-21": "2h",
+                    "extendedProps": {
+                      "planItemId": "2"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "data": {
+                "resource": "Projekt 2",
+                "availability": "12h",
+                "22-11-21": "4h",
+                "22-11-23": "4h"
+              }
+            }
+          ]
+        },
+        {
+          "data": {
+            "resource": "Jannis",
+            "availability": "184h",
+            "22-11-21": "8h",
+            "22-11-22": "8h",
+            "22-11-23": "4h"
+          },
+          "children": [
+            {
+              "data": {
+                "resource": "Projekt 1",
+                "availability": "8h",
+                "22-11-21": "4h",
+                "22-11-22": "4h"
+              }
+            },
+            {
+              "data": {
+                "resource": "Projekt 2",
+                "availability": "12h",
+                "22-11-21": "4h",
+                "22-11-22": "4h",
+                "22-11-23": "4h"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
