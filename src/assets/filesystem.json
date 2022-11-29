@@ -1,87 +1,210 @@
 {
   "data": [
     {
+      "metadata": {
+        "planItemId": 1,
+        "nodeId": "NM-X-DS",
+        "parentNodeId": null
+      },
       "data": {
-        "resource": "NM-X-DS",
-        "availability": "1750h",
-        "22-11-21": "8h",
-        "22-11-22": "4h",
-        "22-11-23": "4h"
+        "nodeName": "NM-X-DS",
+        "nodeDescription": "SAP Data Platforms & Analytics",
+        "nodeType": "RESOURCE_GROUP",
+        "capacityAvailable": 0,
+        "capacityPlanned": 0,
+        "capacityFree": 0
       },
       "expanded": true,
       "children": [
         {
-          "data": {
-            "resource": "Meikel",
-            "availability": "184h",
-            "22-11-21": "8h",
-            "22-11-22": "4h",
-            "22-11-23": "4h"
+          "metadata": {
+            "planItemId": 1,
+            "nodeId": "Meikel Bode",
+            "parentNodeId": "NM-X-DS"
           },
+          "data": {
+            "nodeName": "Meikel Bode",
+            "nodeDescription": "Head of SAP Data Platforms & Analytics",
+            "nodeType": "RESOURCE",
+            "capacityAvailable": 0,
+            "capacityPlanned": 0,
+            "capacityFree": 0
+          },
+          "nodeExpanded": false,
           "children": [
             {
-              "data": {
-                "resource": "Projekt 1",
-                "availability": "8h",
-                "22-11-21": "4h",
-                "22-11-22": "4h"
+              "metadata": {
+                "planItemId": 1,
+                "nodeId": "Führung",
+                "parentNodeId": "Meikel Bode"
               },
+              "data": {
+                "nodeName": "Führung",
+                "nodeDescription": "A project representing leadership activities",
+                "nodeType": "PLANABLE_OBJECT",
+                "capacityAvailable": 0,
+                "capacityPlanned": 0,
+                "capacityFree": 0
+              },
+              "nodeExpanded": false,
               "children": [
                 {
+                  "metadata": {
+                    "planItemId": 1,
+                    "nodeId": "1",
+                    "parentNodeId": "Führung"
+                  },
                   "data": {
-                    "resource": "PlanItem 1",
-                    "22-11-21": "2h",
-                    "extendedProps": {
-                      "planItemId": "2"
-                    }
-                  }
-                },
-                {
-                  "data": {
-                    "resource": "PlanItem 2",
-                    "22-11-21": "2h",
-                    "extendedProps": {
-                      "planItemId": "2"
-                    }
-                  }
+                    "nodeName": "Führung",
+                    "nodeDescription": "Führung",
+                    "nodeType": "PLAN_ITEM",
+                    "capacityAvailable": 0,
+                    "capacityPlanned": 1500,
+                    "capacityFree": -1500,
+                    "22-11-01": 50,
+                    "22-11-02": 50,
+                    "22-11-03": 50,
+                    "22-11-04": 50,
+                    "22-11-05": 50,
+                    "22-11-06": 50,
+                    "22-11-07": 50,
+                    "22-11-08": 50,
+                    "22-11-09": 50,
+                    "22-11-10": 50,
+                    "22-11-11": 50,
+                    "22-11-12": 50,
+                    "22-11-13": 50,
+                    "22-11-14": 50,
+                    "22-11-15": 50,
+                    "22-11-16": 50,
+                    "22-11-17": 50,
+                    "22-11-18": 50,
+                    "22-11-19": 50,
+                    "22-11-20": 50,
+                    "22-11-21": 50,
+                    "22-11-22": 50,
+                    "22-11-23": 50,
+                    "22-11-24": 50,
+                    "22-11-25": 50,
+                    "22-11-26": 50,
+                    "22-11-27": 50,
+                    "22-11-28": 50,
+                    "22-11-29": 50,
+                    "22-11-30": 50
+                  },
+                  "nodeExpanded": false,
+                  "children": []
                 }
               ]
-            },
-            {
-              "data": {
-                "resource": "Projekt 2",
-                "availability": "12h",
-                "22-11-21": "4h",
-                "22-11-23": "4h"
-              }
             }
           ]
         },
         {
-          "data": {
-            "resource": "Jannis",
-            "availability": "184h",
-            "22-11-21": "8h",
-            "22-11-22": "8h",
-            "22-11-23": "4h"
+          "metadata": {
+            "planItemId": 2,
+            "nodeId": "Paula Winter",
+            "parentNodeId": "NM-X-DS"
           },
+          "data": {
+            "nodeName": "Paula Winter",
+            "nodeDescription": "BoS WI",
+            "nodeType": "RESOURCE",
+            "capacityAvailable": 0,
+            "capacityPlanned": 0,
+            "capacityFree": 0
+          },
+          "nodeExpanded": false,
           "children": [
             {
+              "metadata": {
+                "planItemId": 2,
+                "nodeId": "Project 1",
+                "parentNodeId": "Paula Winter"
+              },
               "data": {
-                "resource": "Projekt 1",
-                "availability": "8h",
-                "22-11-21": "4h",
-                "22-11-22": "4h"
-              }
-            },
+                "nodeName": "Project 1",
+                "nodeDescription": "A project",
+                "nodeType": "PLANABLE_OBJECT",
+                "capacityAvailable": 0,
+                "capacityPlanned": 0,
+                "capacityFree": 0
+              },
+              "nodeExpanded": false,
+              "children": [
+                {
+                  "metadata": {
+                    "planItemId": 2,
+                    "nodeId": "2",
+                    "parentNodeId": "Project 1"
+                  },
+                  "data": {
+                    "nodeName": "Projektarbeit",
+                    "nodeDescription": "Projektarbeit",
+                    "nodeType": "PLAN_ITEM",
+                    "capacityAvailable": 0,
+                    "capacityPlanned": 4,
+                    "capacityFree": -4,
+                    "22-11-11": 4
+                  },
+                  "nodeExpanded": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "metadata": {
+            "planItemId": 3,
+            "nodeId": "Paula Winter",
+            "parentNodeId": "NM-X-DS"
+          },
+          "data": {
+            "nodeName": "Paula Winter",
+            "nodeDescription": "BoS WI",
+            "nodeType": "RESOURCE",
+            "capacityAvailable": 0,
+            "capacityPlanned": 0,
+            "capacityFree": 0
+          },
+          "nodeExpanded": false,
+          "children": [
             {
+              "metadata": {
+                "planItemId": 3,
+                "nodeId": "Project 1",
+                "parentNodeId": "Paula Winter"
+              },
               "data": {
-                "resource": "Projekt 2",
-                "availability": "12h",
-                "22-11-21": "4h",
-                "22-11-22": "4h",
-                "22-11-23": "4h"
-              }
+                "nodeName": "Project 1",
+                "nodeDescription": "A project",
+                "nodeType": "PLANABLE_OBJECT",
+                "capacityAvailable": 0,
+                "capacityPlanned": 0,
+                "capacityFree": 0
+              },
+              "nodeExpanded": false,
+              "children": [
+                {
+                  "metadata": {
+                    "planItemId": 3,
+                    "nodeId": "3",
+                    "parentNodeId": "Project 1"
+                  },
+                  "data": {
+                    "nodeName": "Projektarbeit",
+                    "nodeDescription": "Projektarbeit",
+                    "nodeType": "PLAN_ITEM",
+                    "capacityAvailable": 0,
+                    "capacityPlanned": 8,
+                    "capacityFree": -8,
+                    "22-11-01": 4,
+                    "22-11-02": 4
+                  },
+                  "nodeExpanded": false,
+                  "children": []
+                }
+              ]
             }
           ]
         }
